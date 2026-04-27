@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: MIT
+
+config SHIELD_A50_1
+    def_bool $(shields_list_contains,a50_1)
